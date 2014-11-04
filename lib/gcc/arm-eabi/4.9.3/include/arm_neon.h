@@ -27,13 +27,13 @@
 #ifndef _GCC_ARM_NEON_H
 #define _GCC_ARM_NEON_H 1
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 #ifndef __ARM_NEON__
 #error You must enable NEON instructions (e.g. -mfloat-abi=softfp -mfpu=neon) to use arm_neon.h
 #else
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #include <stdint.h>
 
