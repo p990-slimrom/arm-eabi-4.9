@@ -17,7 +17,7 @@ old_library='libcloog-isl.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/lib /home/sabermod/tmp/arm-eabi-4.9/arch-arm/usr/lib/libisl.la -lgmp'
+dependency_libs=' -L/lib /home/sabermod/tmp/arm-eabi-4.9/arch-arm/usr/lib/libisl.la /home/sabermod/tmp/arm-eabi-4.9/arch-arm/usr/lib/libosl.la -lgmp'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
